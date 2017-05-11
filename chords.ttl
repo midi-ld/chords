@@ -1,0 +1,431 @@
+@prefix mid: <http://purl.org/midi-ld/midi#> .
+@prefix mid-chord: <http://purl.org/midi-ld/chords/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+mid-chord:power a mid:Chord ;
+	rdfs:label "Power chord" ;
+	mid:quality "Indeterminate" ;
+	mid:npc 2 ;
+	mid:interval 7 .
+
+mid-chord:augmented a mid:Chord ;
+	rdfs:label "Augmented chord" ;
+	mid:quality "Augmented" ;
+	mid:npc 3 ;
+	mid:interval 4 ;
+	mid:interval 8 .
+
+mid-chord:augmented-sixth a mid:Chord ;
+	rdfs:label "Augmented sixth chord" ;
+	mid:quality "Predominant" ;
+	mid:npc 3 ;
+	mid:interval 6 ;
+	mid:interval 8 .
+
+mid-chord:diminished a mid:Chord ;
+	rdfs:label "Diminished chord" ;
+	mid:quality "Diminished" ;
+	mid:npc 3 ;
+	mid:interval 3 ;
+	mid:interval 6 .
+
+mid-chord:dominant-parallel a mid:Chord ;
+	rdfs:label "Dominant parallel chord" ;
+	mid:quality "Minor" ;
+	mid:npc 3 ;
+	mid:interval 3 ;
+	mid:interval 7 .
+
+mid-chord:major a mid:Chord ;
+	rdfs:label "Major chord" ;
+	mid:quality "Major" ;
+	mid:npc 3 ;
+	mid:interval 4 ;
+	mid:interval 7 .
+
+mid-chord:minor a mid:Chord ;
+	rdfs:label "Minor chord" ;
+	mid:quality "Minor" ;
+	mid:npc 3 ;
+	mid:interval 3 ;
+	mid:interval 7 .
+
+mid-chord:suspended a mid:Chord ;
+	rdfs:label "Suspended chord" ;
+	mid:quality "Intermediate" ;
+	mid:npc 3 ;
+	mid:interval 5 ;
+	mid:interval 7 .
+
+mid-chord:viennese-0-1-6 a mid:Chord ;
+	rdfs:label "Viennese 0 1 6 chord" ;
+	mid:quality "Atonal" ;
+	mid:npc 3 ;
+	mid:interval 1 ;
+	mid:interval 6 .
+
+mid-chord:viennese-0-6-7 a mid:Chord ;
+	rdfs:label "Viennese 0 6 7 chord" ;
+	mid:quality "Atonal" ;
+	mid:npc 3 ;
+	mid:interval 6 ;
+	mid:interval 7 .
+
+mid-chord:augmented-major-seventh a mid:Chord ;
+	rdfs:label "Augmented major seventh chord" ;
+	mid:quality "Augmented" ;
+	mid:npc 4 ;
+	mid:interval 4 ;
+	mid:interval 8 ;
+	mid:interval 11 .
+
+mid-chord:augmented-seventh a mid:Chord ;
+	rdfs:label "Augmented seventh chord" ;
+	mid:quality "Augmented" ;
+	mid:npc 4 ;
+	mid:interval 4 ;
+	mid:interval 8 ;
+	mid:interval 10 .
+
+mid-chord:diminished-major-seventh a mid:Chord ;
+	rdfs:label "Diminished major seventh chord" ;
+	mid:quality "Diminished" ;
+	mid:npc 4 ;
+	mid:interval 3 ;
+	mid:interval 6 ;
+	mid:interval 11 .
+
+mid-chord:diminished-seventh a mid:Chord ;
+	rdfs:label "Diminished seventh chord" ;
+	mid:quality "Diminished" ;
+	mid:npc 4 ;
+	mid:interval 3 ;
+	mid:interval 6 ;
+	mid:interval 9 .
+
+mid-chord:dominant-seventh a mid:Chord ;
+	rdfs:label "Dominant seventh chord" ;
+	mid:quality "Major" ;
+	mid:npc 4 ;
+	mid:interval 4 ;
+	mid:interval 7 ;
+	mid:interval 10 .
+
+mid-chord:dominant-seventh-flat-five a mid:Chord ;
+	rdfs:label "Dominant seventh flat five chord" ;
+	mid:quality "Diminished" ;
+	mid:npc 4 ;
+	mid:interval 4 ;
+	mid:interval 6 ;
+	mid:interval 10 .
+
+mid-chord:dream a mid:Chord ;
+	rdfs:label "Dream chord" ;
+	mid:quality "Just" ;
+	mid:npc 4 ;
+	mid:interval 5 ;
+	mid:interval 6 ;
+	mid:interval 7 .
+
+mid-chord:half-diminished-seventh a mid:Chord ;
+	rdfs:label "Half diminished seventh chord" ;
+	mid:quality "Diminished" ;
+	mid:npc 4 ;
+	mid:interval 3 ;
+	mid:interval 6 ;
+	mid:interval 10 .
+
+mid-chord:major-seventh a mid:Chord ;
+	rdfs:label "Major seventh chord" ;
+	mid:quality "Major" ;
+	mid:npc 4 ;
+	mid:interval 4 ;
+	mid:interval 7 ;
+	mid:interval 11 .
+
+mid-chord:major-sixth a mid:Chord ;
+	rdfs:label "Major sixth chord" ;
+	mid:quality "Major" ;
+	mid:npc 4 ;
+	mid:interval 4 ;
+	mid:interval 7 ;
+	mid:interval 9 .
+
+mid-chord:minor-major-seventh a mid:Chord ;
+	rdfs:label "Minor major seventh chord" ;
+	mid:quality "Minor" ;
+	mid:npc 4 ;
+	mid:interval 3 ;
+	mid:interval 7 ;
+	mid:interval 11 .
+
+mid-chord:minor-seventh a mid:Chord ;
+	rdfs:label "Minor seventh chord" ;
+	mid:quality "Minor" ;
+	mid:npc 3 ;
+	mid:interval 3 ;
+	mid:interval 7 10 .
+
+mid-chord:minor-sixth a mid:Chord ;
+	rdfs:label "Minor sixth chord" ;
+	mid:quality "Minor" ;
+	mid:npc 4 ;
+	mid:interval 3 ;
+	mid:interval 7 ;
+	mid:interval 9 .
+
+mid-chord:mu a mid:Chord ;
+	rdfs:label "Mu chord" ;
+	mid:quality "Major" ;
+	mid:npc 4 ;
+	mid:interval 2 ;
+	mid:interval 4 ;
+	mid:interval 7 .
+
+mid-chord:seventh-suspension-four a mid:Chord ;
+	rdfs:label "Seventh suspension four chord" ;
+	mid:quality "Suspended" ;
+	mid:npc 4 ;
+	mid:interval 5 ;
+	mid:interval 7 ;
+	mid:interval 10 .
+
+mid-chord:tristan a mid:Chord ;
+	rdfs:label "Tristan chord" ;
+	mid:quality "Predominant" ;
+	mid:npc 4 ;
+	mid:interval 3 ;
+	mid:interval 6 ;
+	mid:interval 10 .
+
+mid-chord:dominant-minor-ninth a mid:Chord ;
+	rdfs:label "Dominant minor ninth chord" ;
+	mid:quality "Major" ;
+	mid:npc 5 ;
+	mid:interval 4 ;
+	mid:interval 7 ;
+	mid:interval 10 ;
+	mid:interval 13 .
+
+mid-chord:augmented-ninth a mid:Chord ;
+	rdfs:label "Augmented ninth chord" ;
+	mid:quality "Major" ;
+	mid:npc 5 ;
+	mid:interval 4 ;
+	mid:interval 7 ;
+	mid:interval 10 ;
+	mid:interval 15 .
+
+mid-chord:elektra a mid:Chord ;
+	rdfs:label "Elektra chord" ;
+	mid:quality "Bitonal" ;
+	mid:npc 5 ;
+	mid:interval 7 ;
+	mid:interval 9 ;
+	mid:interval 13 ;
+	mid:interval 16 .
+
+mid-chord:farben a mid:Chord ;
+	rdfs:label "Farben chord" ;
+	mid:quality "Atonal" ;
+	mid:npc 5 ;
+	mid:interval 8 ;
+	mid:interval 11 ;
+	mid:interval 16 ;
+	mid:interval 21 .
+
+mid-chord:lydian a mid:Chord ;
+	rdfs:label "Lydian chord" ;
+	mid:quality "Major" ;
+	mid:npc 5 ;
+	mid:interval 4 ;
+	mid:interval 7 ;
+	mid:interval 11 ;
+	mid:interval 18 .
+
+mid-chord:major-seventh-sharp-eleventh a mid:Chord ;
+	rdfs:label "Major seventh sharp eleventh chord" ;
+	mid:quality "Augmented" ;
+	mid:npc 5 ;
+	mid:interval 4 ;
+	mid:interval 8 ;
+	mid:interval 11 ;
+	mid:interval 18 .
+
+mid-chord:major-sixth-ninth a mid:Chord ;
+	rdfs:label "Major sixth ninth chord" ;
+	mid:quality "Major" ;
+	mid:npc 5 ;
+	mid:interval 4 ;
+	mid:interval 7 ;
+	mid:interval 9 ;
+	mid:interval 14 .
+
+mid-chord:major-ninth a mid:Chord ;
+	rdfs:label "Major ninth chord" ;
+	mid:quality "Major" ;
+	mid:npc 5 ;
+	mid:interval 4 ;
+	mid:interval 7 ;
+	mid:interval 10 ;
+	mid:interval 14 .
+
+mid-chord:minor-sixth-ninth a mid:Chord ;
+	rdfs:label "Minor sixth ninth chord" ;
+	mid:quality "Minor" ;
+	mid:npc 5 ;
+	mid:interval 3 ;
+	mid:interval 7 ;
+	mid:interval 9 ;
+	mid:interval 14 .
+
+mid-chord:ninth-augmented-fifth a mid:Chord ;
+	rdfs:label "Ninth augmented fifth chord" ;
+	mid:quality "Augmented" ;
+	mid:npc 5 ;
+	mid:interval 4 ;
+	mid:interval 8 ;
+	mid:interval 10 ;
+	mid:interval 14 .
+
+mid-chord:ninth-flat-fifth a mid:Chord ;
+	rdfs:label "Ninth flat fifth chord" ;
+	mid:quality "Major third and flat fifth" ;
+	mid:npc 5 ;
+	mid:interval 4 ;
+	mid:interval 6 ;
+	mid:interval 10 ;
+	mid:interval 14 .
+
+mid-chord:seven-six a mid:Chord ;
+	rdfs:label "Seven six chord" ;
+	mid:quality "Major" ;
+	mid:npc 5 ;
+	mid:interval 4 ;
+	mid:interval 7 ;
+	mid:interval 9 ;
+	mid:interval 10 .
+
+mid-chord:so-what a mid:Chord ;
+	rdfs:label "So what chord" ;
+	mid:quality "Bitonal" ;
+	mid:npc 5 ;
+	mid:interval 5 ;
+	mid:interval 10 ;
+	mid:interval 15 ;
+	mid:interval 19 .
+
+mid-chord:augmented-eleventh a mid:Chord ;
+	rdfs:label "Augmented eleventh chord" ;
+	mid:quality "Major" ;
+	mid:npc 6 ;
+	mid:interval 4 ;
+	mid:interval 7 ;
+	mid:interval 10 ;
+	mid:interval 14 ;
+	mid:interval 18 .
+
+mid-chord:dominant-eleventh a mid:Chord ;
+	rdfs:label "Dominant eleventh chord" ;
+	mid:quality "Major" ;
+	mid:npc 6 ;
+	mid:interval 4 ;
+	mid:interval 7 ;
+	mid:interval 10 ;
+	mid:interval 14 ;
+	mid:interval 17 .
+
+mid-chord:major-eleventh a mid:Chord ;
+	rdfs:label "Major eleventh chord" ;
+	mid:quality "Major" ;
+	mid:npc 6 ;
+	mid:interval 4 ;
+	mid:interval 7 ;
+	mid:interval 11 ;
+	mid:interval 14 ;
+	mid:interval 17 .
+
+mid-chord:minor-eleventh a mid:Chord ;
+	rdfs:label "Minor eleventh chord" ;
+	mid:quality "Minor" ;
+	mid:npc 6 ;
+	mid:interval 3 ;
+	mid:interval 7 ;
+	mid:interval 10 ;
+	mid:interval 14 ;
+	mid:interval 17 .
+
+mid-chord:mystic a mid:Chord ;
+	rdfs:label "Mystic chord" ;
+	mid:quality "Atonal" ;
+	mid:npc 6 ;
+	mid:interval 6 ;
+	mid:interval 10 ;
+	mid:interval 16 ;
+	mid:interval 21 ;
+	mid:interval 26 .
+
+mid-chord:ode-to-napoleon a mid:Chord ;
+	rdfs:label "Ode to napoleon chord" ;
+	mid:quality "Atonal" ;
+	mid:npc 6 ;
+	mid:interval 1 ;
+	mid:interval 4 ;
+	mid:interval 5 ;
+	mid:interval 8 ;
+	mid:interval 9 .
+
+mid-chord:petrushka a mid:Chord ;
+	rdfs:label "Petrushka chord" ;
+	mid:quality "Mixed" ;
+	mid:npc 6 ;
+	mid:interval 1 ;
+	mid:interval 4 ;
+	mid:interval 6 ;
+	mid:interval 7 ;
+	mid:interval 10 .
+
+mid-chord:dominant-thirteenth a mid:Chord ;
+	rdfs:label "Dominant thirteenth chord" ;
+	mid:quality "Major" ;
+	mid:npc 7 ;
+	mid:interval 4 ;
+	mid:interval 7 ;
+	mid:interval 10 ;
+	mid:interval 14 ;
+	mid:interval 17 ;
+	mid:interval 21 .
+
+mid-chord:major-thirteenth a mid:Chord ;
+	rdfs:label "Major thirteenth chord" ;
+	mid:quality "Major" ;
+	mid:npc 7 ;
+	mid:interval 4 ;
+	mid:interval 7 ;
+	mid:interval 11 ;
+	mid:interval 14 ;
+	mid:interval 18 ;
+	mid:interval 21 .
+
+mid-chord:minor-thirteenth a mid:Chord ;
+	rdfs:label "Minor thirteenth chord" ;
+	mid:quality "Minor" ;
+	mid:npc 7 ;
+	mid:interval 3 ;
+	mid:interval 7 ;
+	mid:interval 10 ;
+	mid:interval 14 ;
+	mid:interval 17 ;
+	mid:interval 21 .
+
+mid-chord:magic a mid:Chord ;
+	rdfs:label "Magic chord" ;
+	mid:quality "Just" ;
+	mid:npc 8 ;
+	mid:interval 1 ;
+	mid:interval 5 ;
+	mid:interval 6 ;
+	mid:interval 10 ;
+	mid:interval 12 ;
+	mid:interval 15 ;
+	mid:interval 17 .

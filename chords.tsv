@@ -1,0 +1,84 @@
+# 2
+power	indeterminate	7
+
+# 3
+augmented	augmented	4	8
+augmented sixth	predominant	6	8
+diminished	diminished	3	6
+#dominant	major	4	7
+dominant parallel	minor	3	7
+#leading tone	diminished	3	6
+major	major	4	7
+#mediant	minor	3	7
+minor	minor	3	7
+#psalms	minor	3	7
+#secondary dominant	major	4	7
+#secondary leading tone	diminished	3	6
+#secondary supertonic	minor	3	7
+suspended	intermediate	5	7
+#subdominant	major	4	7
+#subdominant parallel	minor	3	7
+#submediant	minor	3	7
+#subtonic	major	4	7
+#supertonic	minor	3	7
+#tonic counter parallel	minor	3	7
+#tonic	major	4	7
+#tonic parallel	minor	3	7
+viennese 0 1 6	atonal	1	6
+viennese 0 6 7	atonal	6	7
+
+# 4
+augmented major seventh	augmented	4	8	11
+augmented seventh	augmented	4	8	10
+diminished major seventh	diminished	3	6	11
+diminished seventh	diminished	3	6	9
+dominant seventh	major	4	7	10
+dominant seventh flat five	diminished	4	6	10
+dream	just	5	6	7
+half diminished seventh	diminished	3	6	10
+#harmonic seventh	major	4	7	10
+major seventh	major	4	7	11
+major sixth	major	4	7	9
+minor major seventh	minor	3	7	11
+minor seventh	minor	3	7 10
+minor sixth	minor	3	7	9
+mu	major	2	4	7
+seventh suspension four	suspended	5	7	10
+tristan	predominant	3	6	10
+
+# 5
+dominant minor ninth	major	4	7	10	13
+#dominant ninth	major	4	7	10	14
+augmented ninth	major	4	7	10	15
+#dominant seventh raised ninth	mixed	4	7	10	15
+#dominant seventh split third	mixed	4	7	10	15
+#hendrix	mixed	4	7	10	15
+elektra	bitonal	7	9	13	16
+farben	atonal	8	11	16	21
+lydian	major	4	7	11	18
+major seventh sharp eleventh	augmented	4	8	11	18
+major sixth ninth	major	4	7	9	14
+major ninth	major	4	7	10	14
+minor sixth ninth	minor	3	7	9	14
+ninth augmented fifth	augmented	4	8	10	14
+ninth flat fifth	major third and flat fifth	4	6	10	14
+seven six	major	4	7	9	10
+#seventh flat nine	major	4	7	10 13
+so what	bitonal	5	10	15	19
+
+# 6
+augmented eleventh	major	4	7	10	14	18
+dominant eleventh	major	4	7	10	14	17
+major eleventh	major	4	7	11	14	17
+minor eleventh	minor	3	7	10	14	17
+mystic	atonal	6	10	16	21	26
+ode to napoleon	atonal	1	4	5	8	9
+petrushka	mixed	1	4	6	7	10
+
+# 7
+dominant thirteenth	major	4	7	10	14	17	21
+major thirteenth	major	4	7	11	14	18	21
+minor thirteenth	minor	3	7	10	14	17	21
+
+# 8
+magic	just	1	5	6	10	12	15	17
